@@ -1,0 +1,13 @@
+{
+    "development":{
+        "PORT":3001,
+        "MONGODB_URI":"YOUR_MONGO_URI_HERE",
+        "JWT_SECRET":"YOUR_JWT_SECRET_HERE",
+        "JWT_EXP":"2h"
+    },
+    "production":{
+        "MONGODB_URI":"YOUR_MONGO_URI_HERE",
+        "JWT_SECRET":"YOUR_JWT_SECRET_HERE",
+        "JWT_EXP":"2h"
+    }
+}
